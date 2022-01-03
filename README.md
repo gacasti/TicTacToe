@@ -20,3 +20,12 @@ Question: What is the appropriate OAuth 2/OIDC grant to use for a web applicatio
 Answer: Client Credentials Grant - This grant is more for machine-to-machine authentication or for clients who exchange requests to an API which do not require user's permission.
 
 Ref.: https://oauth2.thephpleague.com/authorization-server/client-credentials-grant/
+
+************************* To Launch API *******************************
+The enviroment uses MongoDB as database (port: 27017) and to test the api it requires Postman, and Docker.
+
+1. Load complete project to VS Code
+
+2. Press F5 to run
+
+3. Open Postman to test the different routes for Get Games, Post Games, Update Games, Delete Games
